@@ -1,0 +1,64 @@
+:root {
+  --bright-blue: #3dc4fc;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav {
+  width: 100%;
+  background-color: var(--bright-blue);
+  text-align: center;
+  padding-top: 5px;
+  font-size: 2em;
+}
+
+.home-page article {
+  display: flex;
+  flex-direction: column;
+}
+.home-page .img-container {
+  height: 125px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-container img {
+  width: 100%;
+  position: absolute;
+  bottom: -10%;
+}
+
+.beer-card {
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.beer-card img {
+  height: 120px;
+}
+
+.beer-card div {
+  margin-left: 20px;
+}
+
+.beer-card h2 {
+  font-size: 1.5em;
+}
+
+.single-beer {
+}
+
+.single-beer img {
+  height: 200px;
+}
